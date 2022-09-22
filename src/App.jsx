@@ -6,7 +6,7 @@ import dividerDesktop from "./assets/pattern-divider-desktop.svg";
 
 
 function App() {
-   const [advice, setAdvice] = useState({});
+   const [advice, setAdvice] = useState({id: 0, advice: "Waiting for advice"});
 
   function getAdvice() {
     fetch("https://api.adviceslip.com/advice", {cache: "no-store"})
@@ -15,7 +15,7 @@ function App() {
         setAdvice(data.slip)
       })
   }
-  useEffect(() => getAdvice, [])
+  useEffect(getAdvice, [])
 
   return (
     <div className="card">
