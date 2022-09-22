@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My code](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [My code](https://github.com/Kencral/advice-generator)
+- Live Site URL: [Live](https://kencral.github.io/advice-generator/)
 
 ## My process
 
