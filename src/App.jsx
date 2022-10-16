@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="card">
-      <h3 className="card-title">{`Advice #${advice.id}`}</h3>
+      <h1 className="card-title">{`Advice #${advice.id}`}</h1>
       <div className="card-body">
         <p className="card-body">{advice.advice}</p>
         <img src={dividerMovil} className="divider-movil"/>

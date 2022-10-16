@@ -1,8 +1,8 @@
 .card {
   position: relative;
   display: flex;
-  margin: 1rem;
-  padding:1rem;
+  margin: 1.6rem;
+  padding: 1.6rem;
   max-width: 500px;
   flex-direction: column;
   align-items: center;
@@ -11,14 +11,14 @@
 }
 
 .card-title {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: hsl(150, 100%, 66%);
 }
 
 .card-body {
-  font-size:28px;
+  font-size: 2.8rem;
   text-align: center;
-  margin: 1rem 1rem 2rem;
+  margin: 1.6rem 1.6rem 3.2rem;
 }
 
 .card button {

@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%
+}
 body {
   background: hsl(218, 23%, 16%);
   color: hsl(193, 38%, 86%);
@@ -10,7 +13,7 @@ body {
 #root {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
-  height: 90vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   justify-content: center;
